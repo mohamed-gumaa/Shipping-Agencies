@@ -52,6 +52,19 @@
 }
 /* ========= special-heading ========== */
 
+
+/* ======== header  ============== */
+.header ul{
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.header ul li{
+  display: inline-block;
+  margin-left: 20px
+}
+
 /* ============= carousel ================= */
 .carousel-item {
   height: 32rem;
@@ -240,6 +253,27 @@
     padding-right: 5px;
     transition: .2s ease-in-out;
   }
+
+  .breadcrumbs{
+    background-image: url(../images/services/brad.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0px;
+    background-position-y: bottom;
+  }
+  .breadcrumbs a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .breadcrumb-item+.breadcrumb-item::before ,
+  .breadcrumbs .breadcrumb-item.active,
+  .breadcrumbs h1,
+  .breadcrumbs p
+  {
+    color: #fff;
+  }
+
   /*========= End Services ============*/
 
 
@@ -253,7 +287,7 @@
     background-repeat: no-repeat;
     background-image: url(../images/call-to-action-bg.jpg);
 }
-.call-to-action:before {
+.call-to-action::after {
     left: 0;
     top: 0;
     width: 100%;
@@ -266,7 +300,15 @@
 .ptb-100{
     padding: 100px;
 }
-
+.purecounter {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #000;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  z-index: +1111;
+}
 
 
 
