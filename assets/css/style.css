@@ -410,3 +410,13 @@
   width: 70%;
 }
 /* =========== end footer ============= */
+
+@media (max-width: 480px) {
+  .carousel-caption{
+  position: absolute;
+  left: 10%;
+  bottom: 7.25rem;
+  right: 10%;
+ 
+}
+ }
