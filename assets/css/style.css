@@ -80,6 +80,9 @@
 .about img{
   width: -webkit-fill-available;
 }
+.about .m-t{
+  margin-top: 30px;
+}
 /* ========= about =========== */
 
 
@@ -466,5 +469,15 @@
 .breadcrumbs{
   padding: 36px 0px;
 
+}
+.carousel-item{
+  height: 500px;
+  /* background-size: 400px 100%; */
+}
+.carousel-item img {
+  vertical-align: middle;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
  }
