@@ -73,6 +73,15 @@
 }
 /* ========= special-heading ========== */
 
+/* ========= about =========== */
+.about{
+  margin:70px 0px;
+}
+.about img{
+  width: -webkit-fill-available;
+}
+/* ========= about =========== */
+
 
 /* ======== header  ============== */
 .header ul{
@@ -102,7 +111,8 @@
 
 /* ============= carousel ================= */
 .carousel-item {
-  height: 32rem;
+  /* height: 32rem; */
+  height: 600px;
 }
 .carousel-indicators .active {
   opacity: 1;
