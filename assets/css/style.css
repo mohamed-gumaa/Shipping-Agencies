@@ -2,6 +2,27 @@
     font-family: 'Tajawal', sans-serif;
 }
 /* #f0f2f4!important */
+:root{
+  --bs-bg-opacity: 0.1;
+  --bs-bg-opacity: 0.15;
+  --bs-blue-rgb: 29, 59, 83;
+  --bs-purple-rgb: 111, 66, 193;
+}
+.bg-opacity-15 {
+  --bs-bg-opacity: 0.15;
+}
+.bg-opacity-10 {
+  --bs-bg-opacity: 0.1;
+}
+
+.bg-blue{
+  background-color: rgba(var(--bs-blue-rgb), var(--bs-bg-opacity)) !important;
+  
+}
+.bg-purple {
+  background-color: rgba(var(--bs-purple-rgb), var(--bs-bg-opacity)) !important;
+}
+
 /* ========= special-heading ========== */
 .special-heading {
     text-align: center;
