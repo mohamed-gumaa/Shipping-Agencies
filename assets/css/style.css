@@ -109,8 +109,10 @@
 /* ============ End carousel  ================= */
 
 /* ========= Navbar ========== */
-
-.navbar-brand{
+/* .navbar{
+  --bs-navbar-padding-y:0;
+} */
+/* .navbar-brand{
     font-size: xx-large;
     color: #fff;
 }
@@ -129,11 +131,8 @@
 }
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
     color:#fff;
-}
+} */
 
-/* background: var(--main-color);
-    padding: 0;
-    border-bottom: 2px solid var(--primary-color); */
 
 /* ========= End Navbar ========== */
 
