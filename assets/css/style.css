@@ -59,10 +59,24 @@
   display: flex;
   justify-content: end;
   align-items: center;
+  margin-bottom: 3px;
+  margin-top: 4px
 }
 .header ul li{
   display: inline-block;
   margin-left: 20px
+}
+.header p{
+  margin-bottom: 0;
+  font-size: 13px;
+}
+.header span{
+  font-size: 13px;
+  font-weight: bold;
+}
+.header .bi::before{
+  font-weight: 900 !important;
+  color: #1352a3;
 }
 
 /* ============= carousel ================= */
